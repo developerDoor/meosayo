@@ -12,6 +12,10 @@ a {
   color: rgba(0, 0, 0, 0.39);
   text-decoration: none;
 }
+div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .hidden {
   display: none !important;
 }
