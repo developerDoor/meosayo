@@ -67,8 +67,16 @@
   height: 90px;
   box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2), 0 1px 1px rgba(255, 255, 255, 0.2);
   box-sizing: border-box;
+  overflow: hidden;
 }
-#about .cat > .picture > img {
+
+#about .cat > .picture > a {
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+
+#about .cat > .picture > a > img {
   display: inline-block;
   vertical-align: middle;
   border-radius: 100%;
