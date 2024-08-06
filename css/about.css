@@ -1,5 +1,5 @@
 #about {
-  position: fixed;
+  position: relative;
   overflow: auto;
   text-align: center;
   top: 0;
@@ -29,7 +29,7 @@
   text-align: center;
   min-height: 150px;
   padding: 15px;
-  padding-bottom: 130px;
+  padding-bottom: 0px;
 }
 #about > .frame h2 {
   opacity: 1;
